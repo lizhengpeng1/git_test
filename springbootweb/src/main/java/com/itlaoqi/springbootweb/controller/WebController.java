@@ -83,6 +83,10 @@ public class WebController {
         return jobs;
     }
 
+    public void test(){
+        System.out.println( "测试" );
+    }
+
 
 /*
     @RequestMapping(value = "/" , method = RequestMethod.GET)
