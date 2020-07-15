@@ -23,6 +23,11 @@ public class SpringbootwebApplication {
 		regFilter.setOrder(1);
 		return regFilter;
 	}
+
+	public void test(){
+		System.out.println( "测试" );
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootwebApplication.class, args);
 	}
